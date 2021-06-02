@@ -44,5 +44,6 @@ function createPlayer(player, character) {
   $life.style.width = character.hp + "%";
   $name.innerText = character.name;
 }
+
 createPlayer("player1", subZero);
 createPlayer("player2", kitana);
